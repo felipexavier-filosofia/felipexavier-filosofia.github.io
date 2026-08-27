@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Xavier | Pesquisa em Filosofia</title>
+    <!-- Tailwind CSS para um design limpo e moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+            color: #334155; /* slate-700 */
+        }
+        h1, h2, h3, h4, .font-serif {
+            font-family: Georgia, serif;
+        }
+        .link-hover {
+            transition: color 0.2s ease, text-decoration-color 0.2s ease;
+            text-decoration: underline;
+            text-decoration-color: transparent;
+        }
+        .link-hover:hover {
+            color: #0f172a;
+            text-decoration-color: #94a3b8;
+        }
+    </style>
+</head>
+<body class="antialiased leading-relaxed">
+
+    <!-- Navegação Minimalista -->
+    <nav class="sticky top-0 z-50 bg-slate-50/90 backdrop-blur-sm border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center text-sm font-medium text-slate-600">
+            <a href="#" class="font-serif font-semibold text-slate-800 hover:text-slate-900 transition-colors">Felipe Xavier</a>
+            <div class="space-x-6 hidden sm:block">
+                <a href="#sobre" class="hover:text-slate-900 transition-colors">Sobre</a>
+                <a href="#formacao" class="hover:text-slate-900 transition-colors">Formação</a>
+                <a href="#pesquisa" class="hover:text-slate-900 transition-colors">Pesquisa</a>
+                <a href="#publicacoes" class="hover:text-slate-900 transition-colors">Publicações</a>
+                <a href="#ensino" class="hover:text-slate-900 transition-colors">Ensino</a>
+                <a href="#en-fr" class="hover:text-slate-900 transition-colors">EN/FR</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 md:py-20 space-y-24">
+
+        <!-- Seção: Cabeçalho / Hero -->
+        <header class="flex flex-col md:flex-row items-start md:items-center gap-8 border-b border-slate-200 pb-16" id="sobre">
+            <img src="https://placehold.co/400x400/e2e8f0/475569?text=Felipe+Xavier" 
+                 alt="Foto de Felipe Xavier" 
+                 class="w-40 h-40 object-cover rounded-full shadow-sm border border-slate-200">
+            
+            <div>
+                <h1 class="text-4xl md:text-5xl font-serif font-semibold text-slate-900 mb-2">Felipe Xavier</h1>
+                <p class="text-xl text-slate-600 mb-4 font-serif">Doutor em Filosofia</p>
+                <p class="text-slate-600 max-w-2xl">
+                    Pesquisador com foco em Friedrich Nietzsche, explorando as primeiras recepções brasileiras de seu pensamento. Também estudo as relações do filósofo alemão com os temas de Política, Estado e Direito.
+Atualmente, sou Professor Efetivo (Carreira EBTT - B1) no Instituto Federal do Amazonas, dedicando-me ao ensino, à pesquisa acadêmica e à extensão universitária. Também sou pesquisador vinculado ao Centro de Estudos Nietzsche (CENBRA-Unifesp) e ao Grupo de Estudos Nietzsche (GEN).
+                </p>
+                
+                <div class="mt-6 flex flex-wrap gap-4 text-sm">
+                    <!-- Botão CV -->
+                    <a href="https://drive.google.com/file/d/1ZI3P1ilQTIxDvas8SNo9ZxvRPktq-n0W/view?usp=sharing" target="_blank" class="inline-flex items-center gap-2 bg-slate-900 text-white px-4 py-2 rounded-md hover:bg-slate-800 transition-colors shadow-sm">
+                        <i class="ph ph-file-pdf"></i> Baixar CV (PDF)
+                    </a>
+                    
+                    <!-- Botão Lattes -->
+                    <a href="http://lattes.cnpq.br/2210641492395435" target="_blank" class="inline-flex items-center gap-2 bg-white border border-slate-300 text-slate-700 px-4 py-2 rounded-md hover:bg-slate-50 transition-colors shadow-sm">
+                        <i class="ph ph-link"></i> Lattes
+                    </a>
+
+                    <!-- Botão ORCID -->
+                    <a href="https://orcid.org/0000-0001-6480-9261" target="_blank" class="inline-flex items-center gap-2 bg-white border border-slate-300 text-slate-700 px-4 py-2 rounded-md hover:bg-slate-50 transition-colors shadow-sm">
+                        <i class="ph ph-identification-card"></i> ORCID 
+                    </a>
+                    
+                    <!-- Botão E-mail -->
+                    <a href="mailto:luiz.goncalves@ifam.edu.br" class="inline-flex items-center gap-2 bg-white border border-slate-300 text-slate-700 px-4 py-2 rounded-md hover:bg-slate-50 transition-colors shadow-sm">
+                        <i class="ph ph-envelope-simple"></i> E-mail
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Seção: Formação Acadêmica -->
+        <section id="formacao" class="scroll-mt-24">
+            <h2 class="text-2xl font-serif font-semibold text-slate-900 mb-6 border-l-4 border-slate-800 pl-4">Formação Acadêmica</h2>
+            
+            <div class="space-y-6 relative border-l-2 border-slate-200 ml-4 py-2">
+                <!-- Doutorado -->
+                <div class="relative pl-6">
+                    <div class="absolute w-3 h-3 bg-slate-800 rounded-full -left-[7px] top-1.5 border-2 border-white shadow-sm"></div>
+                    <h3 class="text-lg font-serif font-medium text-slate-900">Doutorado em Filosofia</h3>
+                    <p class="text-sm text-slate-500 mb-1">Universidade Federal de São Paulo &bull; 04.2021 - 04.2026</p>
+                    <p class="text-sm text-slate-600 font-medium">Orientação: Prof. Dr. Ivo da Silva Junior</p>
+                
+                <!-- Início dos Subtópicos (Estágios Subordinados sem linha vertical) -->
+                    <div class="mt-4 space-y-2 relative ml-0">
+                        
+                        <!-- Estágio Suíça -->
+                        <div class="relative">
+                            
+                            <!-- Caixa do Subtópico 1 -->
+                            <div class="ml-0 bg-slate-50 border border-slate-200/60 rounded-md p-4 shadow-sm hover:shadow-md transition-shadow">
+                                <h4 class="text-sm font-serif font-medium text-slate-800 mb-1">Pesquisador Visitante</h4>
+                                <p class="text-sm text-slate-500 mb-2">Universität Basel (UniBasel), Suíça  &bull; 09.2024 - 08.2025</p>
+                                <p class="text-xs text-slate-600 mb-1"><span class="font-medium">Supervisão:</span> Prof. Dr. Markus Wild</p>
+                                <p class="text-xs text-slate-500"><span class="font-medium">Financiamento:</span> ESKAS – Bolsa de Excelência do Governo Suíça</p>
+                            </div>
+                        </div>
+
+                        <!-- Estágio Canadá -->
+                        <div class="relative">
+                           
+                            <!-- Caixa do Subtópico 2 -->
+                            <div class="ml-0 bg-slate-50 border border-slate-200/60 rounded-md p-4 shadow-sm hover:shadow-md transition-shadow">
+                                <h4 class="text-sm font-serif font-medium text-slate-800 mb-1">Pesquisador Visitante</h4>
+                                <p class="text-sm text-slate-500 mb-2">Université du Québec à Montréal (UQÀM), Canadá &bull; 01.2024 – 07.2024</p>
+                                <p class="text-xs text-slate-600 mb-1"><span class="font-medium">Supervisão:</span> Profª. Drª. Chiara Pizzesi</p>
+                                <p class="text-xs text-slate-500"><span class="font-medium">Financiamento:</span> PFLA/ELAP – Bolsa de Excelência do Governo Canadense</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Fim dos Subtópicos -->
+                </div>
+
+                <!-- Mestrado -->
+                <div class="relative pl-6">
+                    <div class="absolute w-3 h-3 bg-slate-300 rounded-full -left-[7px] top-1.5 border-2 border-white shadow-sm"></div>
+                    <h3 class="text-lg font-serif font-medium text-slate-900">Mestrado em Filosofia</h3>
+                    <p class="text-sm text-slate-500 mb-1">Universidade Federal de Pernambuco &bull; 2017 - 2019</p>
+                </div>
+
+                <!-- Graduação 3 -->
+                <div class="relative pl-6">
+                    <div class="absolute w-3 h-3 bg-slate-300 rounded-full -left-[7px] top-1.5 border-2 border-white shadow-sm"></div>
+                    <h3 class="text-lg font-serif font-medium text-slate-900">Bacharelado em Direito</h3>
+                    <p class="text-sm text-slate-500 mb-1">Universidade Federal de Pernambuco – Faculdade de Direito do Recife &bull; 2016 - 2022</p>
+                </div>
+
+                <!-- Graduação 2 -->
+                <div class="relative pl-6">
+                    <div class="absolute w-3 h-3 bg-slate-300 rounded-full -left-[7px] top-1.5 border-2 border-white shadow-sm"></div>
+                    <h3 class="text-lg font-serif font-medium text-slate-900">Licenciatura em Filosofia</h3>
+                    <p class="text-sm text-slate-500 mb-1"> Centro Universitário Claretiano – Batatais &bull; 2016 - 2017</p>
+                </div>
+
+                <!-- Graduação 1 -->
+                <div class="relative pl-6">
+                    <div class="absolute w-3 h-3 bg-slate-300 rounded-full -left-[7px] top-1.5 border-2 border-white shadow-sm"></div>
+                    <h3 class="text-lg font-serif font-medium text-slate-900">Bacharelado em Filosofia</h3>
+                    <p class="text-sm text-slate-500 mb-1">Universidade Católica de Pernambuco &bull; 2013 - 2015</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: Pesquisa -->
+        <section id="pesquisa" class="scroll-mt-24">
+            <h2 class="text-2xl font-serif font-semibold text-slate-900 mb-6 border-l-4 border-slate-800 pl-4">Pesquisas</h2>
+            
+            <div class="bg-white p-8 rounded-lg shadow-sm border border-slate-100">
+                <h3 class="text-xl font-serif text-slate-800 mb-3">Nietzsche e o Pensamento Jurídico Brasileiro (1876-1937) – Atual</h3>
+                <p class="mb-4">
+                    Minha pesquisa investiga a recepção da filosofia de Friedrich Nietzsche no pensamento jurídico brasileiro entre o final do século XIX e a década de 1930. 
+                    Trabalho com a hipótese de que as ideias nietzschianas foram assimiladas no Brasil, nesse período, primordialmente por meio de uma perspectiva evolucionista, 
+                    servindo para preencher distintos 'carecimentos conceituais' (no sentido de Agnes Heller) dos autores analisados.
+                </p>
+                <p class="mb-4">
+                    Ao mapear essa recepção inicial, analiso como o evolucionismo — difundido especialmente pela Escola do Recife, com a influência indireta de Tobias Barreto — atuou como 
+                    ponte para a entrada de Nietzsche no país. O estudo aprofunda-se nas obras de figuras como Farias Brito, Pontes de Miranda e Almáquio Diniz, evidenciando como cada jurista 
+                    se apropriou dessa leitura de maneira singular: seja como contraponto para defender o espiritualismo, como base sutil para a teoria da adaptação social no Direito, ou como fundamento 
+                    biológico para a ideia de (<em>Übermensch</em>).
+                </p>
+                 <p class="mb-2">
+                    Apoiando-me no conceito de 'recepções menores' de Laure Verbaere, minha contribuição central é reorganizar o mapa da recepção de Nietzsche no Brasil, demonstrando que as 
+                    leituras realizadas 'à margem' do Direito oficial foram vetores cruciais para a disseminação e a cristalização das imagens do filósofo na cultura nacional.
+                </p>
+            </div>
+
+            
+        </section>
+
+        <!-- Seção: Publicações Selecionadas -->
+        <section id="publicacoes" class="scroll-mt-24">
+            <div class="flex items-center justify-between mb-6 border-l-4 border-slate-800 pl-4">
+                <h2 class="text-2xl font-serif font-semibold text-slate-900">Publicações Selecionadas</h2>
+            </div>
+            
+            <p class="text-sm text-slate-500 mb-8 italic">
+                Abaixo estão listados apenas os trabalhos centrais. Para a lista completa, consulte o <a href="http://lattes.cnpq.br/2210641492395435" target="_blank" class="link-hover font-medium">Currículo Lattes</a>.
+            </p>
+
+            <div class="space-y-6 pl-4">
+                <!-- Exemplo de Publicação 1 (Tese) -->
+                <article class="group">
+                    <p class="text-sm text-slate-500 mb-1">Tese de Doutorado &bull; 2026</p>
+                    <h3 class="text-lg font-serif font-medium text-slate-900 group-hover:text-slate-700 transition-colors">
+                        Nietzsche à margem do Direito: a recepção nietzschiana pelos juristas brasileiros (1876 – 1937)
+                    </h3>
+                    <p class="text-slate-600 text-sm mt-1 mb-2">Defendida no Programa de Pós-Graduação em Filosofia da Universidade Federal de São Paulo.</p>
+                    <a href="https://repositorio.unifesp.br/items/b8d80e24-815c-48c5-a0c0-ae7a361230c0" class="text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors underline decoration-slate-300 underline-offset-4"><i class="ph ph-file-pdf mr-1"></i>Acessar Tese [PDF]</a>
+                </article>
+
+                <!-- Exemplo de Publicação 2 -->
+                <article class="group">
+                    <p class="text-sm text-slate-500 mb-1">Artigo em Periódico &bull; 2026</p>
+                    <h3 class="text-lg font-serif font-medium text-slate-900 group-hover:text-slate-700 transition-colors">
+                        “O que o jovem Nietzsche pensa sobre o Estado”: as contribuições de Hobbes e Tucídides
+                    </h3>
+                    <p class="text-slate-600 text-sm mt-1 mb-2">Publicado em: <em>Cadernos Nietzsche</em>, v. 47, n. 1, p. 01-33.</p>
+                    <a href="https://doi.org/10.1590/2316-82422026v4701lg" class="text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors underline decoration-slate-300 underline-offset-4"><i class="ph ph-arrow-square-out mr-1"></i>Ler nos Cadernos Nietzsche</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção: Ensino -->
+        <section id="ensino" class="scroll-mt-24">
+            <h2 class="text-2xl font-serif font-semibold text-slate-900 mb-6 border-l-4 border-slate-800 pl-4">Ensino</h2>
+            <div class="bg-slate-100/50 p-6 md:p-8 rounded-lg border border-slate-200">
+                <p class="mb-6">
+                    Como docente no <strong>IFAM - Campus Maués</strong>, busco integrar a reflexão filosófica à prática e à realidade local. 
+                    Abaixo, disponibilizo as ementas (<em>syllabi</em>) e cronogramas de leitura das minhas disciplinas recentes.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- Disciplina 1 -->
+                    <div class="bg-white p-5 rounded-md border border-slate-200 shadow-sm">
+                        <h4 class="font-serif font-medium text-slate-900 mb-1 text-lg">xxxFILxxx</h4>
+                        <p class="text-xs text-slate-500 mb-4 uppercase tracking-wider">IFAM &bull; Graduação [em breve]</p>
+                        <a href="COLE_AQUI_LINK_DO_SYLLABUS_1" class="inline-flex items-center text-sm font-medium text-slate-700 hover:text-slate-900 border border-slate-300 px-3 py-1.5 rounded transition-colors bg-slate-50 hover:bg-slate-100"><i class="ph ph-download-simple mr-1.5"></i>Baixar Syllabus</a>
+                    </div>
+                    <!-- Disciplina 2 -->
+                    <div class="bg-white p-5 rounded-md border border-slate-200 shadow-sm">
+                        <h4 class="font-serif font-medium text-slate-900 mb-1 text-lg">xxxFILxxx</h4>
+                        <p class="text-xs text-slate-500 mb-4 uppercase tracking-wider">IFAM &bull; Técnico Integrado [em breve]</p>
+                        <a href="COLE_AQUI_LINK_DO_SYLLABUS_2" class="inline-flex items-center text-sm font-medium text-slate-700 hover:text-slate-900 border border-slate-300 px-3 py-1.5 rounded transition-colors bg-slate-50 hover:bg-slate-100"><i class="ph ph-download-simple mr-1.5"></i>Baixar Syllabus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção: English / Français (Perfil Resumido) -->
+        <section id="en-fr" class="scroll-mt-24 bg-slate-900 text-slate-200 p-8 md:p-10 rounded-2xl shadow-lg">
+            <div class="flex items-center justify-between mb-8 border-l-4 border-slate-500 pl-4">
+                <h2 class="text-2xl font-serif font-semibold text-white">Profile Summary / Profil Résumé</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- English -->
+                <div>
+                    <h3 class="text-lg font-serif font-medium text-white mb-4 flex items-center gap-2">
+                        <span class="text-2xl">🇬🇧</span> English
+                    </h3>
+                    <p class="text-sm mb-4 leading-relaxed text-slate-300">
+                        PhD in Philosophy with a focus on the reception of Friedrich Nietzsche's work among Brazilian legal scholars (1876-1937).
+                    </p>
+                    <p class="text-sm mb-0 leading-relaxed text-slate-300">
+                        I have been a visiting researcher at UQÀM (Canada) and Universität Basel (Switzerland). Currently teaching at the Federal Institute of Amazonas (IFAM).
+                    </p>
+                </div>
+
+                <!-- Français -->
+                <div>
+                    <h3 class="text-lg font-serif font-medium text-white mb-4 flex items-center gap-2">
+                        <span class="text-2xl">🇫🇷</span> Français
+                    </h3>
+                    <p class="text-sm mb-4 leading-relaxed text-slate-300">
+                        Docteur en Philosophie spécialisé dans la réception de l'œuvre de Friedrich Nietzsche par les juristes brésiliens.
+                    </p>
+                    <p class="text-sm mb-0 leading-relaxed text-slate-300">
+                        Chercheur invité à l'UQÀM (Canada) et à l'Universität Basel (Suisse). Actuellement professeur à l'Institut Fédéral de l'Amazonas (IFAM).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé e Contato -->
+    <footer id="contato" class="border-t border-slate-200 bg-white mt-12 py-12">
+        <div class="max-w-4xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <h2 class="text-xl font-serif font-semibold text-slate-900 mb-2">Contato</h2>
+                <p class="text-slate-600 mb-1"><i class="ph ph-map-pin mr-2 text-slate-400"></i>IFAM - Campus Maués, Amazonas, Brasil</p>
+                <p class="text-slate-600"><i class="ph ph-envelope-simple mr-2 text-slate-400"></i><a href="mailto:luiz.goncalves@ifam.edu.br" class="link-hover">luiz.goncalves@ifam.edu.br</a></p>
+            </div>
+            
+            <div class="flex gap-4">
+                <a href="http://lattes.cnpq.br/2210641492395435" title="Currículo Lattes" target="_blank" class="text-slate-400 hover:text-slate-900 transition-colors text-2xl">
+                    <i class="ph ph-file-text"></i>
+                </a>
+                
+                <a href="https://orcid.org/0000-0001-6480-9261" title="ORCID" target="_blank" class="text-slate-400 hover:text-slate-900 transition-colors text-2xl">
+                    <i class="ph ph-identification-card"></i>
+                </a>
+
+                <a href="https://philpeople.org/profiles/luiz-felipe-xavier-goncalves" title="PhilPeople / PhilArchive" target="_blank" class="text-slate-400 hover:text-slate-900 transition-colors text-2xl">
+                    <i class="ph ph-book-open"></i>
+                </a>
+                
+                <a href="https://ifam.academia.edu/LuizFelipeXavierGon%C3%A7alves" title="Academia.edu" target="_blank" class="text-slate-400 hover:text-slate-900 transition-colors text-2xl">
+                    <i class="ph ph-graduation-cap"></i>
+                </a>
+            </div>
+        </div>
+        <div class="max-w-4xl mx-auto px-6 mt-8 pt-8 border-t border-slate-100 text-center text-sm text-slate-500">
+            &copy; <span id="year"></span> Felipe Xavier. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+```eof
